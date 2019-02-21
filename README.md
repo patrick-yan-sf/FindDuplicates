@@ -1,2 +1,14 @@
-# FindDuplicates
-Find Duplicates in Salesforce Using 
+# SFDX  App
+
+## Dev, Build and Test
+
+
+## Resources
+
+
+## Description of Files and Directories
+
+
+## Issues
+
+
