@@ -1,0 +1,7 @@
+project:
+    name: sfdx force:project:create -FindDuplicates
+    package:
+        name:  FindDuplicates
+        api_version: '45.0'
+
+
