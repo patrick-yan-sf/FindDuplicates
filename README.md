@@ -10,5 +10,11 @@
 
 
 ## Issues
+There are still many things that needs to be done.
+- The DuplicateFinder class should implement scheduleable and the queueable interface so that it can be run on a schedule
+and process all the records in the org
+- Currently we simply pass in a list of contacts but the exact fields that need to be selected and the way the contacts are 
+passed in need to be improved.
+- How to handle the duplicates that have already been found?  The current list of contacts in a Set will run out of memory.
 
 
