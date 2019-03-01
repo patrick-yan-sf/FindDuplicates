@@ -23,6 +23,8 @@ The general flow is:
 
 Note: Currently, this method will only evaluate an org with 100 Contacts.
 
+## [Video Demo](FindDuplicates/FindDuplicates-Demo-Video.mov)
+
 ## Resources
 
 
