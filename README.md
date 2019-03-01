@@ -15,7 +15,7 @@ The general flow is:
 2. Make sure you have some Contacts that would be flagged as duplicates by rule
 3. Open Developer Console
 4. Click **File -> New -> Apex Class**
-5. Copy the text from [DuplicateFinder.cls](FindDuplicates/src/classes/DuplicateFinder.cls)
+5. Copy the text from [DuplicateFinder.cls](src/classes/DuplicateFinder.cls)
 6. Paste in the new Apex Classy file and click **File -> Save**
 7. Click **Debug -> Open Execute Anonymous Window**
 8. Paste `DuplicateFinder.findAllDuplicateContacts();` and click **Execute**
