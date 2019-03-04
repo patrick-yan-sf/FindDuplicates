@@ -10,6 +10,21 @@ The general flow is:
 * Loop through the find duplicate results and create DuplicateRecordSets for each record that has duplicates
 * If Record A might be a duplicate of B or C then the duplicate record set should have 3 record items
 
+## How to Use
+1. Setup a [Contact Duplicate Rule](https://help.salesforce.com/articleView?id=duplicate_rules_map_of_reference.htm&type=5)
+2. Make sure you have some Contacts that would be flagged as duplicates by rule
+3. Open Developer Console
+4. Click **File -> New -> Apex Class**
+5. Copy the text from [DuplicateFinder.cls](src/classes/DuplicateFinder.cls)
+6. Paste in the new Apex Classy file and click **File -> Save**
+7. Click **Debug -> Open Execute Anonymous Window**
+8. Paste `DuplicateFinder.findAllDuplicateContacts();` and click **Execute**
+9. Navigate to [Duplicate Record Sets](https://help.salesforce.com/articleView?id=duplicate_management_duplicate_record_sets.htm&type=5) and you should see newly created ones related to the potential duplicate Duplicate Record Items which relate to potential duplicate Contacts and the Duplicate Rule
+
+Note: Currently, this method will only evaluate an org with 100 Contacts.
+
+## [Video Demo](FindDuplicates/FindDuplicates-Demo-Video.mov)
+
 ## Resources
 
 
